@@ -1,0 +1,23 @@
+:root{
+    --primary-color: coral;
+    --text-color: #222;
+}
+
+/* :root sélectionne l'élément html mais avec une spécificité moins forte */
+
+body{
+    background-color: var(--primary-color);
+}
+
+h1{
+    color: var(--text-color);
+}
+
+.about {
+    --primary-color: blue;
+}
+
+.about p{
+    background-color: var(--primary-color);
+}
+

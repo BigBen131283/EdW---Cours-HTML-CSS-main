@@ -1,0 +1,32 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  /* width: 100%; */
+  /* max-width: 100%; */
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  /* object-position: left; */
+  object-position: center;
+}
+
+/* Pour le SEO */
+/* Si l'image est importante pour le site on l'utilise plutôt en img qu'en background-image */
+
+.hero-section{
+  height: 100vh;
+  /* background-color: coral; */
+  /* background-image: url("./images/nature.jpg"); */
+
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+
+  /* propriété raccourcie */
+  /* Penser à mettre un / entre center et cover pour indiquer le changement de propriété position / size */
+  background: coral url("./images/nature.jpg") center / cover no-repeat;
+}

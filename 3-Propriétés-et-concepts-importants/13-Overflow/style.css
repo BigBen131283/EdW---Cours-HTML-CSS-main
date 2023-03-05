@@ -1,0 +1,16 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background: red;
+  width: 400px;
+  height: 200px;
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+  /* overflow-y: scroll; */
+  overflow: auto;
+}
+

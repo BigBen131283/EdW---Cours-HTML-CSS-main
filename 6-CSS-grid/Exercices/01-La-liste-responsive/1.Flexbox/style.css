@@ -1,0 +1,38 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f1f1f1;
+  padding: 140px 0 100px;
+}
+
+.gallery{
+  display: flex;
+  /* justify-content: space-between; */
+  flex-grow: 1;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1100px;
+
+  margin: 0 auto;
+  padding: 0 20px;
+  gap: 10px;
+}
+.gallery::after{
+  content: "";
+  display: block;
+  flex-grow: 10;
+}
+
+.gallery li{
+  margin: 5px;
+  list-style-type: none;
+  width: 250px;
+}
+
+.gallery li img{
+  width: 100%;
+}

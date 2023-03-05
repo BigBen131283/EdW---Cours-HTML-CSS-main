@@ -1,0 +1,36 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h1::before{
+  content: "";
+  display: block;
+  /* width: 50px; */
+  height: 50px;
+  background: red;
+}
+h1::after{
+  content: "";
+  display: block;
+  /* width: 50px; */
+  height: 50px;
+  background: red;
+}
+
+p::first-line{
+  background-color: royalblue;
+}
+
+p::first-letter{
+  font-size: 45px;
+}
+
+p::selection{
+  background: violet;
+}

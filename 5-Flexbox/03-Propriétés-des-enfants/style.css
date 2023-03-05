@@ -1,0 +1,59 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #222;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 150px;
+}
+
+.flex-container {
+  max-width: 600px;
+  margin: 0 auto;
+  height: 400px;
+  background: wheat;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+}
+.flex-item {
+  width: 100px;
+  height: 100px;
+  background: crimson;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 35px;
+  color: #f1f1f1;
+  font-weight: bold;
+
+  /* Flex-grow */
+  /* Distribue l'espace restant */
+  /* De base sur 0 */
+
+  /* flex-grow: 1; */
+
+  /* Flex-shrink */
+  /* Gère le rétrécissement */
+  /* De base sur 1 */
+  /* flex-shrink: 1; */
+
+  /* Prop raccourcie grow - shrink - basis */
+  /* flex: 1 0 auto; */
+}
+.item-1{
+  /* width: 80px; */
+  /* flex-basis: 80px; */
+  order: 3;
+}
+.item-2{
+  /* width: 125px; */
+  order: 1;
+}
+.item-3{
+  /* width: 100px; */
+  order: 2;
+}

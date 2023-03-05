@@ -1,0 +1,51 @@
+p {
+  font-size: 45px;
+
+  /* margin: 20px;
+  margin: 20px 20px;
+  margin: 20px 20px 20px 20px; */
+  /* Haut - gauche-droite - bas */
+  /* margin: 200px 20px 0px; */
+
+  /* Dupliquer les lignes : Shift + Alt + flêche du bas */
+  /* margin-top: 2px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+  margin-right: 99px; */
+
+  /* Padding */
+  /* Permet de faire respirer un design */
+
+  background-color: coral;
+  /* margin: 200px 0; */
+  padding: 60px 20px 30px 40px;
+
+  /* Les bordures */
+  border-width: 10px;
+  border-style: solid;
+  border-color: crimson;
+
+  border: 10px solid crimson;
+
+  /* border-radius */
+  /* Le rayon de l'arrondi, s'il dépasse 50% de la hauteur sera un quart de cercle */
+  /* Effet pills */
+  /* border-radius: 9999px; */
+  /* border-radius: 5px 60px 10px 200px; */
+
+}
+
+/* La largeur des éléments inline correspond à leur contenu. */
+/* Ici du texte. */
+/* Ils ne prennent pas toute la largeur comme les blocs. */
+
+span {
+  background: green;
+  font-size: 25px;
+  
+  /* Le padding top et bottom des éléments inline ne poussent pas les autres éléments inline ou block. */
+  padding: 80px 10px;
+
+  /* Margin top et bottom ne fonctionne pas avec les éléments inline */
+  margin: 5555550px 0;
+}

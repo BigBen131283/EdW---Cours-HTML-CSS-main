@@ -1,0 +1,35 @@
+body {
+  background-color: #333;
+}
+
+.box{
+  width: 250px;
+  height: 250px;
+
+  /* Les couleurs */
+
+  /* named color */
+  background-color: salmon;
+
+  /* RGB red green blue */
+  background-color: rgb(250, 128, 114);
+
+  /* RGBa red green blue alpha */
+  background-color: rgba(250, 128, 114, 0.3);
+
+  /* hexadecimal */
+  /* [0-9][a-f] */
+  /* Le plus utilisé */
+  background-color: #fa8072;
+
+  /* HSL */
+  background-color: hsl(11,47%,52%);
+
+  box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+  border: 10px solid blue;
+}
+
+h1{
+  color: #000;
+}
+
