@@ -12,4 +12,12 @@ body {
   width: 200px;
   height: 200px;
   background: orangered;
+  /* transform: translateX(200px)
+             translateY(200px)
+             translate(250px, 250px)
+             scale(3)
+             rotate(45deg)
+             skewX(25deg); */
+  transform: rotate(145deg);
+  transform-origin: 100% 100%;
 }

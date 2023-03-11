@@ -10,7 +10,34 @@ body {
   padding-top: 100px;
 }
 
+.animated-link{
+  display: inline-block;
+  /* Permet de prendre la largeur/hauteur de son enfant */
 
+  background: #111;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.animated-link span{
+  display: inline-block;
+  /* Les transformations ne fonctionnent pas sur les éléments inline */
+  background: #ff90e8;
+  color: #111;
+  border: 1px solid #111;
+  padding: 18px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: transform 0.15s ease-out,
+              background-color 0.15s ease-out;
+}
+
+.animated-link:hover span{
+  transform: translate(6px, -6px);
+  background-color: #fbe94c;
+}
 
 
 

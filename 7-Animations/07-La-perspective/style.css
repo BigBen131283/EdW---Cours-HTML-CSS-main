@@ -9,3 +9,39 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 140px;
 }
+
+.box{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border: 3px dashed red;
+  position: relative;
+
+  /* La propriété transform-style définit si les éléments-fils d'un éléments sont positionnés dans l'espace tridimensionnel ou s'ils sont aplatis dans le plan de l'élément. */
+  /* La propriété doit être placée sur le parent */
+  /* preserve-3d permet de visualiser l'intersection des 2 éléments. */
+  transform-style: preserve-3d;
+
+  /* La propriété perspective détermine la distance entre le plan d'équation z = 0 et la position de l'utilisateur afin de donner une perspective aux objets positionnés dans l'espace 3D.  */
+  /* Chaque élément pour lequel la côte (z) est positif sera plus grand et chaque élément pour lequel z est négatif apparaîtra plus petit. La force de cet effet est déterminée par la valeur de cette propriété. */
+  /* Ici on recule notre élément .box de 2000px par rapport à l'écran */
+  perspective: 2000px;
+}
+
+.plane{
+  position: absolute;
+  border: 1px solid #f1f1f1;
+  width: 100%;
+  height: 100%;
+}
+
+.p-1{
+  background: blue;
+  transform: rotateY(45deg);
+}
+
+.p-2{
+  background: green;
+  transform: rotateX(45deg);
+  /* transform: translateZ(500px); */
+}
