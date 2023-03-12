@@ -9,6 +9,22 @@ body {
   height: 100%;
 }
 
-/* body {
-
-} */
+body {
+  /* background-color: orange; */
+  /* background-image:  */
+    /* linear-gradient(45deg, red, blue, orange, green) */
+    /* linear-gradient(to right, red, blue, orange) */
+    /* linear-gradient(to top left, red, blue, green) */
+    
+    /* linear-gradient(to right, #333 0%, #333 50%, #eee 75%, #333 75%) */
+    /* ; */
+    /* background: linear-gradient(
+      to right,
+      green 0% 33%,
+      white 33% 66%,
+      orange 66% 100%
+    ); */
+    /* background: radial-gradient(#3607e1,#f3e6e7); */
+    /* background: repeating-linear-gradient(#f69d3c, #3f87a6 50px); */
+    background: conic-gradient(from 45deg, #f69d3c, #3f87a6);
+}

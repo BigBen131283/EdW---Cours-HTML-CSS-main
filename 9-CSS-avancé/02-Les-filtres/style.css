@@ -13,3 +13,33 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+.filtered-img{
+  /* filter: blur(5px); */
+  /* filter: brightness(50%); */
+  /* filter: contrast(200%); */
+  /* filter: grayscale(100%); */
+  /* filter: invert(100%); */
+  /* filter: opacity(25%); */
+  /* filter: sepia(100%); */
+  /* filter: hue-rotate(180deg); */
+
+  /* fonctionne comme box-shadow X Y flou couleur */
+  /*filter: drop-shadow(16px 16px 20px red couleur);*/
+
+  /* On peut cumuler les propriétés */
+  filter: drop-shadow(16px 16px 20px red) invert(75%) blur(5px);
+}
+
+
+/* Pour un png et un svg l'ombre va suivre la forme du png ou du svg et non pas le cadre */
+.png-sax{
+  filter: drop-shadow(16px 16px 20px red);
+  /* background: #333; */
+}
+.svg-sax{
+  filter: drop-shadow(16px 16px 20px #e6c42c);
+  /* background: #333; */
+}
+
+

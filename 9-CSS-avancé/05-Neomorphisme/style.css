@@ -18,7 +18,11 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 50px;  
-
+  border-radius: 50px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow:  13px 13px 13px #8b8b8b,
+               -13px -13px 13px #ffffff;
 } 
 .box p {
   font-size: 40px;

@@ -20,6 +20,8 @@ body {
   /* -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px); */
   border-bottom: 1px solid #a4a4a4;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 .desktop-nav a {
   text-decoration: none;

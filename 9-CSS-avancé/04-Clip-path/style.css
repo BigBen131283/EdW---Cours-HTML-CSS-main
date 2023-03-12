@@ -20,6 +20,8 @@ div.box {
   transform: translate(-50%, -50%);
 
   /* Clip-path */
+  /* clip-path: circle(20px at 50% 50%); */
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%, 100% 50%);
 
 }
 
@@ -46,7 +48,9 @@ div.box {
   font-size: 18px;
   min-height: 400px;
 }
-/* .clipped-1 {
+.clipped-1 {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
 }
 .clipped-2 {
-} */
+  clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0% 100%);
+}
