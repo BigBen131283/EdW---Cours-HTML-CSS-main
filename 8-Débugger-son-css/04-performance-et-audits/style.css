@@ -10,4 +10,29 @@
   margin: 100px auto 0;
   background: orange;
   position: relative;
+  animation: moving 4s infinite ease-in-out;
+}
+
+/* Rappel : il faut privilégier transform et opacity pour les animations pour ne pas avoir de pb de performance */
+/* @keyframes moving {
+  20%{
+    margin-top: -250px;
+  }
+  50%{
+    margin-top: 250px;
+  }
+  100%{
+    margin-top: 750px;
+  }
+} */
+@keyframes moving {
+  20%{
+    transform: translateY(-250px);
+  }
+  50%{
+    transform: translateY(250px);
+  }
+  100%{
+    transform: translateY(750px);
+  }
 }
